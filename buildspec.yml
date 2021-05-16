@@ -3,9 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-        - curl -O https://bootstrap.pypa.io/pip/3.4/get-pip.py
-        - python3 get-pip.py
-        - python3 -m pip install -r requirements.txt
+        # - curl -O https://bootstrap.pypa.io/pip/3.4/get-pip.py
+        # - python3 get-pip.py
+        # - python3 -m pip install -r requirements.txt
+        - python3 -m pip install Flask
+        - python3 -m pip install requests
   build:
     commands:
       - echo Build started on `date`

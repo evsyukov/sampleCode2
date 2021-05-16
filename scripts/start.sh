@@ -1,1 +1,1 @@
-python3 app.py > /dev/null 2>&1 &
+sudo python3 app.py > /dev/null 2>&1 &
